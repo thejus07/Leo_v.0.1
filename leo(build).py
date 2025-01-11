@@ -47,12 +47,10 @@ def run_leo():
         print(info)
         talk(info)
     elif 'created you' in command:
-        engine.say('i was created by master thejus. i am rely lucky to be created by him.')
+        engine.say('i was created by thejus.')
         engine.runAndWait()
     elif 'date' in command:
         talk('sorry, I have a headache')
-    elif 'are you single' in command:
-        talk('no')
     elif 'joke' in command:
         talk(pyjokes.get_joke())
     elif ' open ' in command:
