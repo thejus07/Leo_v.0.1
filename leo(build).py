@@ -52,7 +52,7 @@ def run_leo():
     elif 'date' in command:
         talk('sorry, I have a headache')
     elif 'are you single' in command:
-        talk('I am in a relationship with harshu')
+        talk('no')
     elif 'joke' in command:
         talk(pyjokes.get_joke())
     elif ' open ' in command:
